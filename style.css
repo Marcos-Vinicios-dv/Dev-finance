@@ -42,7 +42,7 @@ a:hover {
 }
 
 .button.new {
-    display: inline-block;/* com o inline-block podemos aplicar margin e ainda sim manter o tamnho do elemento  */
+    display: inline-block;
     margin-bottom: 1.8rem;
 }
 
@@ -92,7 +92,7 @@ header {
 }
 
 .sr-only {
-    position: absolute;/* absoluto com relação ao pai */
+    position: absolute;
     width: 1px;
     height: 1px;
 
@@ -106,7 +106,7 @@ header {
 }
 
 .container {
-     width: min(90vw, 800px);/* essa função pega o menor valor entre os atributos */
+     width: min(90vw, 800px);
 
     margin:auto;
 }
@@ -230,7 +230,7 @@ td.expense {
 
     background-color: rgba(0, 0, 0, 0.7);
 
-    position: fixed;/* desbloqueia as propriedades bottom, top, left, right*/
+    position: fixed;
     top: 0;
 
     display: flex;
